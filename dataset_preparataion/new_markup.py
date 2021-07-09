@@ -10,7 +10,7 @@ forbidden = ['(1)img-1671__2021-06-13-16-21-33-243335.png',
              '(1)img-1686__2021-06-13-16-21-52-380056.png',
              '(1)img-1681__2021-06-13-16-21-42-703017.png']
 
-data = pandas.read_json("./source/markup.json", "index")
+data = pandas.read_json("./markup.json", "index")
 
 while i < len(data):
     for key in data["regions"][i].keys():
