@@ -1,5 +1,5 @@
 # duckietown_markup_reading
-**Предварительно**
+**Предварительно** <br />
 !!Нужно установить библиотеки pandas, PIL, pytorch, torchvision, os!! <br />
 !!На локальной машине нужно запускать скрипты на версии python 3+, pytorch 1.9.0, torchvision 0.10.0, PIL 8.2.0!!<br />
 
