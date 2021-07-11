@@ -43,6 +43,6 @@
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Добавить ярлык на данную папку на главную страницу своего диска. <br />
 3) Создать на главной странице диска папку custom_dataset, где на ходится файл c именем markup.csv (в первой колнке должны располагаться имена изображений), описывающий датасет, находящийся в папке dataset, в директории custom_dataset запуска.  <br />
-4) Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/12-FBZ08wGlb_WtpEag0mOWccRf-1ULFT <br />
+4) Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/1lKOXPvkCVz7aHJsk8AHWcxJRmVFd1UZU?usp=sharing <br />
 5) Послледовательно выполнить все ячейки. <br />
 6) Программа запишет название класса во второю колонку файла markup.csv  <br />
