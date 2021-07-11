@@ -23,7 +23,7 @@
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Добавить ярлык на данную папку на главную страницу своего диска. <br />
 ![image](https://user-images.githubusercontent.com/71724561/125188592-f4ecb200-e23c-11eb-9c52-9c99ff9176c9.png)
-3) Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/1r6zixGz_oLTzxbCD6-0tekZAeDyPtgWp <br />
+3) Перейти в Google Colaboratory по следующей ссылке https://vk.com/away.php?utf=1&to=https%3A%2F%2Fcolab.research.google.com%2Fdrive%2F1r6zixGz_oLTzxbCD6-0tekZAeDyPtgWp%3Fusp%3Dsharing <br />
 4) Послледовательно выполнить все ячейки. <br />
 5) Программа сохранит полученные веса на главную страницу гугл диска. <br />
 
