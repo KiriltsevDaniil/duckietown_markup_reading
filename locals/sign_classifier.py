@@ -1,10 +1,3 @@
-"""sign_classifier.ipynb
-
-
-Original file is located at
-    
-"""
-
 #импортируем нужные библиотеки
 #для считывания csv файла
 import pandas
@@ -34,15 +27,15 @@ df = pandas.read_csv("./markup.csv")
 targets = ["no-left-turn-1", "T-intersection-1", "right-T-intersection-1", "left-T-intersection-1", "stop-1", "traffic-light-1"]
 
 for index in range(len(df)):
-    name  = df.iloc[index, 0] 
+    name  = df.iloc[index, 1] 
     img = Image.open(dataset_path + name, "r")
     tr = nn.AdaptiveMaxPool2d(157)
     img = transforms.ToTensor()(img) 
     img = img[None, :, :,:]
     img = tr(img)
-    _, predicted = torch.max(model(img).data, 1)
+    _, predicted = torch.max(model(img).data, 0)
     value = targets[int(predicted)]
     new_data.append([name, value])
 new_df = pandas.DataFrame(new_data, columns=legend)
-new_df.to_csv("./markup.csv")
+new_df.to_csv("./markup.csv", index=False)
 
