@@ -49,6 +49,9 @@
 3) Запустить скрипт sign_classifier из папки locals в директории, где на ходится файл c именем markup.csv (в первой колонке должны располагаться имена изображений), описывающий пользовательский датасет, находящийся в папке dataset, в директории запуска.  <br />
 ![image](https://user-images.githubusercontent.com/71724561/125187924-8575c300-e23a-11eb-9417-35526ad5ce26.png)
 3) Программа запишет название класса во второю колонку файла markup.csv  <br />
+*) может возникнуть следующая ошибка, но она ни на что не влияет.  <br />
+![image](https://user-images.githubusercontent.com/71724561/125195449-58d3a280-e25e-11eb-95d0-5c027311c3ad.png)
+
 
 5.2 **Google Colaboratory** <br />
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
