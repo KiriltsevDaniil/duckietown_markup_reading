@@ -32,9 +32,8 @@
 5. **Работа с обученой сетью**  <br />
 5.1 **Запуск на локальной машине** <br />
 1. Запустить скрипт sign_classifier из папки locals в директории, где на ходится файл c именем markup.csv (в первой колнке должны располагаться имена изображений), описывающий датасет, находящийся в папке dataset, в директории запуска.  <br />
-2. Программа запишет название класса во второю колонку файла markup.csv  <br />
 ![image](https://user-images.githubusercontent.com/71724561/125187392-19925b00-e238-11eb-8348-7591e6ce1c49.png)
-
+2. Программа запишет название класса во второю колонку файла markup.csv  <br />
 
 5.2 **Google Colaboratory** <br />
 1. Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
