@@ -25,6 +25,7 @@
 1) Скачать папку cropped_dataset по ссылке https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Распаковать zip архив.
 3) Запустить AIDO_mobilenet_traincamp.py (лежащий в locals) в загруженной папке (cropped_dataset). <br />
+![image](https://user-images.githubusercontent.com/71724561/125192439-8c0f3500-e250-11eb-9fb4-868b9112ab6b.png)
 4) Программа сохранит полученные веса в папку запуска (cropped_dataset). <br />
 
 3.2 **Google Colaboratory** <br />
