@@ -31,7 +31,8 @@
 3.2 **Google Colaboratory** <br />
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Добавить ярлык на данную папку на главную страницу своего диска. <br />
-![image](https://user-images.githubusercontent.com/71724561/125188592-f4ecb200-e23c-11eb-9c52-9c99ff9176c9.png)
+![image](https://user-images.githubusercontent.com/71724561/125188592-f4ecb200-e23c-11eb-9c52-9c99ff9176c9.png)![image](https://user-images.githubusercontent.com/71724561/125195330-d519b600-e25d-11eb-8e49-8c175fa2434c.png)
+
 3) Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/1r6zixGz_oLTzxbCD6-0tekZAeDyPtgWp?usp=sharing <br />
 4) Последовательно выполнить все ячейки. <br />
 5) Программа сохранит полученные веса на главную страницу гугл диска. <br />
@@ -52,7 +53,8 @@
 5.2 **Google Colaboratory** <br />
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Добавить ярлык на данную папку на главную страницу своего диска. <br />
-3) Создать на главной странице диска папку custom_dataset, где на ходится файл c именем markup.csv (в первой колнке должны располагаться имена изображений), описывающий датасет, находящийся в папке dataset, в директории custom_dataset запуска.  <br />
+3) Создать на главной странице диска папку custom_dataset и положить туда файл c именем markup.csv (в первой колонке должны располагаться имена изображений), в папке dataset должен лежать датасет, который будет классифицироваться.  <br />
+![image](https://user-images.githubusercontent.com/71724561/125195376-fa0e2900-e25d-11eb-9e05-d42dee48cf6e.png)
 4) Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/12-FBZ08wGlb_WtpEag0mOWccRf-1ULFT?usp=sharing <br />
 5) Последовательно выполнить все ячейки. <br />
 6) Программа запишет название класса во второю колонку файла markup.csv  <br />
