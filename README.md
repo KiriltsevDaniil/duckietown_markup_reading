@@ -12,18 +12,32 @@
 
 3. **Тренировка сети** <br />
 3.1 **Запуск на локальной машине** <br />
-3.1.1 Скачать папку по ссылке https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
-3.1.2 Запустить AIDO_mobilenet_traincamp.py (лежащий в locals) в загруженной папке (cropped_dataset). <br />
-3.1.3 Программа сохранит полученные веса в папку запуска (cropped_dataset). <br />
+1. Скачать папку по ссылке https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
+2. Запустить AIDO_mobilenet_traincamp.py (лежащий в locals) в загруженной папке (cropped_dataset). <br />
+3. Программа сохранит полученные веса в папку запуска (cropped_dataset). <br />
 
 3.2 **Google Colaboratory** <br />
-3.2.1 Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
-3.2.2 Добавить ярлык на данную папку на главную страницу своего диска. <br />
-3.2.3 Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/1r6zixGz_oLTzxbCD6-0tekZAeDyPtgWp <br />
-3.2.4 Послледовательно выполнить все ячейки.
-3.2.5 Программа сохранит полученные веса на главную страницу гугл диска.
+1. Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
+2. Добавить ярлык на данную папку на главную страницу своего диска. <br />
+3. Перейти в Google Colaboratory по следующей ссылке https://colab.research.google.com/drive/1r6zixGz_oLTzxbCD6-0tekZAeDyPtgWp <br />
+4. Послледовательно выполнить все ячейки. <br />
+5. Программа сохранит полученные веса на главную страницу гугл диска. <br />
 
-4. **Проверка точности**
-5. **Работа с обученой сетью**
-**Проверка точности сети.** <br />
-Чтобы проверить точность сети, надо в файле AIDO_MobileNet_traincamp.ipynb из папки traincamp_notebook выполнить последовательно все ячейки, пропустив этап обучения.
+4. **Проверка точности**  <br />
+1. Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
+2. Добавить ярлык на данную папку на главную страницу своего диска. <br />
+3. Перейти по ссылке <br />
+4. Выполнить последовательно все ячейки. <br />
+
+5. **Работа с обученой сетью**  <br />
+5.1 **Запуск на локальной машине** <br />
+1. Запустить скрипт sign_classifier из папки locals в директории, где на ходится файл c именем markup.csv (в первой колнке должны располагаться имена изображений), описывающий датасет, находящийся в папке dataset, в директории запуска.  <br />
+2. Программа запишет название класса во второю колонку файла markup.csv  <br />
+![image](https://user-images.githubusercontent.com/71724561/125187392-19925b00-e238-11eb-8348-7591e6ce1c49.png)
+
+
+5.2 **Google Colaboratory** <br />
+1. Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
+2. Добавить ярлык на данную папку на главную страницу своего диска. <br />
+3. Создать на главной странице диска папку custom_dataset, где на ходится файл c именем markup.csv (в первой колнке должны располагаться имена изображений), описывающий датасет, находящийся в папке dataset, в директории custom_dataset запуска.  <br />
+4.Программа запишет название класса во второю колонку файла markup.csv  <br />
