@@ -30,7 +30,7 @@
 4. **Проверка точности**  <br />
 1) Перейти по ссылке в Google Drive https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Добавить ярлык на данную папку на главную страницу своего диска. <br />
-3) Перейти по ссылке <br />
+3) Перейти по ссылке https://colab.research.google.com/drive/1lKOXPvkCVz7aHJsk8AHWcxJRmVFd1UZU?usp=sharing <br />
 4) Выполнить последовательно все ячейки. <br />
 
 5. **Работа с обученой сетью**  <br />
