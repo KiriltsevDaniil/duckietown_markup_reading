@@ -2,7 +2,7 @@
 
 
 Original file is located at
-    https://colab.research.google.com/drive/12-FBZ08wGlb_WtpEag0mOWccRf-1ULFT
+    
 """
 
 #импортируем нужные библиотеки
@@ -34,7 +34,7 @@ df = pandas.read_csv("./markup.csv")
 targets = ["no-left-turn-1", "T-intersection-1", "right-T-intersection-1", "left-T-intersection-1", "stop-1", "traffic-light-1"]
 
 for index in range(len(df)):
-    name  = df.iloc[index, 1] #switch to zero
+    name  = df.iloc[index, 0] 
     img = Image.open(dataset_path + name, "r")
     tr = nn.AdaptiveMaxPool2d(157)
     img = transforms.ToTensor()(img) 
