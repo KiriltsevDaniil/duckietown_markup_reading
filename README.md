@@ -22,7 +22,7 @@
 
 3. **Тренировка сети** <br />
 3.1 **Запуск на локальной машине** <br />
-1) Скачать папку по ссылке https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
+1) Скачать папку cropped_dataset по ссылке https://drive.google.com/drive/folders/1-HoHLsJW6sNykZp0lv521HNf5aZnua98?usp=sharing <br />
 2) Запустить AIDO_mobilenet_traincamp.py (лежащий в locals) в загруженной папке (cropped_dataset). <br />
 3) Программа сохранит полученные веса в папку запуска (cropped_dataset). <br />
 
